@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "f2e4e98a-e53a-45a7-a95c-4f243de3ced1",
+		"name": "CC1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "examinations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/examinations",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"examinations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "examinations_stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/examinations/stats",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"examinations",
+						"stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "examination",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/examination/14",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"examination",
+						"14"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
