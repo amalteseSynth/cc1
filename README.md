@@ -19,7 +19,7 @@ cd cc1
 npm install
 ```
 
-## Steps for read-only access
+## Steps for testing
 
 To start the express server, run the following
 
