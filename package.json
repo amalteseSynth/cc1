@@ -4,8 +4,7 @@
   "description": "Topcon code challange",
   "main": "server.ts",
   "scripts": {
-    "dev": "nodemon server.ts",
-    "build": "rm -rf build/ && prettier --write . && tsc"
+    "dev": "nodemon server.ts"
   },
   "repository": {
     "type": "git",

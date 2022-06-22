@@ -1,5 +1,7 @@
 ## Topcon code challange app
 
+A small service able to expose stats on a hypothetical massive COVID 19 testing.
+
 ## Requirements
 ```bash
 Node
