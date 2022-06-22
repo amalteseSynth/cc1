@@ -20,8 +20,15 @@ const getExamination = async (req: Request, res: Response, next: NextFunction) =
     console.log("getExaminations | getting exam id: ", id);
     
     try{
-        const examinations = examinationService.findExamination(id);
-        return res.status(200).send(examinations);
+        const examination = examinationService.findExamination(id);
+        if(!examination){
+            const error = new Error('Not found');
+            return res.status(404).json({
+                message: error.message
+            });
+        }
+
+        return res.status(200).send(examination);
     } catch (e) {
         console.log("getExamination | error: " + e.message);
         return res.status(500).json({ status: 500, message: "Internal server error" });
