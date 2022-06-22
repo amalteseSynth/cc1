@@ -4,6 +4,7 @@
   "description": "Topcon code challange",
   "main": "server.ts",
   "scripts": {
+    "test": "jest",
     "dev": "nodemon server.ts"
   },
   "repository": {
